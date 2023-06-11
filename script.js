@@ -11,6 +11,7 @@ const progress = document.getElementById("progress");
 const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
+const bigCover = document.getElementById("cover-group-image");
 
 // Songs
 const songs = ["pantomime", "save-me-save-you", "secret", "unnatural"];
@@ -24,6 +25,7 @@ function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
   cover.src = `images/${song}.jpg`;
+  bigCover.src=`images/${song}-group-cover.jpg`;
 }
 
 function playSong() {

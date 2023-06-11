@@ -19,6 +19,7 @@
     display: flex;
     position: relative;
     z-index: 10;
+    margin-top: 10px;
   }
 
 .music-container-with-image{
@@ -35,6 +36,7 @@
   object-fit: cover;
   width: 100%;
   border-radius: 25px;
+  border:5px dashed gray;
 }
 
   .img-container {
