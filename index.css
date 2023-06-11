@@ -25,6 +25,8 @@
     margin: 60px 0;
     z-index: 10;
   }
+
+
   .img-container {
     position: relative;
     width: 110px;
@@ -76,6 +78,12 @@
     cursor: pointer;
     padding: 10px;
     margin: 0 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .action-btn{
+       margin: 0px 10px;
+    }
   }
   .action-btn.action-btn-big {
     color: #cdc2d0;
