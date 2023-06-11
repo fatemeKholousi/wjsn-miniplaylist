@@ -22,7 +22,7 @@ let songIndex = 3;
 loadSong(songs[songIndex]);
 
 function loadSong(song) {
-  title.innerText = song;
+  title.innerText = song.replaceAll('-',' ');
   audio.src = `music/${song}.mp3`;
   cover.src = `images/${song}.jpg`;
   bigCover.src=`images/${song}-group-cover.jpg`;
