@@ -142,3 +142,15 @@
   #title{
     text-transform:capitalize;
   }
+  .intro{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+  }
+
+  footer a{
+    all: unset;
+    color:white;
+    cursor:pointer;
+    font-weight:500;
+
+  }
