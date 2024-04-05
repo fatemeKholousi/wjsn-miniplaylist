@@ -7,6 +7,15 @@
     "name": "WJSN mini playlist",
     "short_name": "WJSN PLay",
     "description": "a mini playlist",
+    "screenshots": [
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Wjsn PLaylist"
+        }
+    ],
     "icons": [
         {
             "src": "/icon-192x192.png",
