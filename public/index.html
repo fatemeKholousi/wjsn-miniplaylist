@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WJSN Mini PlayList</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="manifest" href="manifest.json"/>
+</head>
+<body>
+  <div class="intro">
+    <h1>Ujo player</h1>
+  </div>
+   <div class="music-container-with-image" > 
+
+    <img src="" alt="big-cover" id='cover-group-image' height="200"/>
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      <audio src="music/unnatural.mp3" id="audio"></audio>
+      <div class="img-container">
+        <img src="images/unnatural.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+  
+</div>
+<footer>
+  <a href="https://github.com/fatemeKholousi">
+    Created by an 우정 
+  </a>
+</footer>
+
+    <script defer src="script.js" ></script>
+
+</body>
+</html>
